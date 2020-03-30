@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+.canvas {
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.heading {
+  margin: 10px 0 10px 0;
+}
+
+.tools {
+  &__button {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+.heading {
+  font-size: 15px;
+}
+
+.drawing-controls {
+  margin-top: 10px;
+
+  &__button {
+    width: 100px;
+    height: 30px;
+  }
+}
